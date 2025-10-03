@@ -1,14 +1,14 @@
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router';
 
 interface IProps {}
 
 const Page404 = (props: IProps) => {
-  useEffect(() => {}, []);
+  const navi = useNavigate();
+  navi('/');
 
   return (
-    <section>
-      <p>~~~ Page Not Found! ~~~</p>
-    </section>
+    <section />
   );
 };
 

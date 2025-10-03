@@ -1,8 +1,8 @@
-@import '@scss/color.scss';
-@import '@scss/mixin.scss';
+@use '@scss/color.scss' as *;
+@use '@scss/mixin.scss' as *;
 
 .app-top {
-  @include secondary-bg(1);
+  @include black-bg(1);
   @include white(1);
 
   display: flex;

@@ -1,0 +1,15 @@
+@use '@scss/color.scss';
+@use '@scss/mixin.scss';
+
+.app-theme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}

@@ -1,5 +1,8 @@
 import { useEffect } from 'react';
-import { NavLink } from 'react-router';
+import { Route, NavLink, Outlet } from 'react-router';
+
+import AppTheme from '@con/app-theme';
+import Home from '@page/home/index';
 
 const Dashboard = () => {
   useEffect(() => {
@@ -7,10 +10,12 @@ const Dashboard = () => {
   }, []);
 
   return (
-    <section>
-      <p>~~~ Dashboard Page ~~~</p>
-      <NavLink to="/home">to Home Page</NavLink>
-    </section>
+    <AppTheme>
+      <section>
+        <p>~~~ Dashboard Page ~~~</p>
+        <Outlet />
+      </section>
+    </AppTheme>
   );
 };
 

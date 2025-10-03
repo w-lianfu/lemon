@@ -1,12 +1,14 @@
 import { useEffect } from 'react';
 
+import './index.scss';
+
 interface IProps {}
 
 const AppStand = (props: IProps) => {
   useEffect(() => {}, []);
 
   return (
-    <section>app stand</section>
+    <p className="app-stand" />
   );
 };
 

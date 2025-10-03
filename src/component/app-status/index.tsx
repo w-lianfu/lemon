@@ -8,7 +8,7 @@ const AppStatus = (props: IProps) => {
   useEffect(() => {}, []);
 
   return (
-    <section>app status</section>
+    <p className="app-status" />
   );
 };
 
