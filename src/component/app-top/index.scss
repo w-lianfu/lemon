@@ -1,0 +1,12 @@
+@import '@scss/color.scss';
+@import '@scss/mixin.scss';
+
+.app-top {
+  @include secondary-bg(1);
+  @include white(1);
+
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  height: 0.1rem;
+}
