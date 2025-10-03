@@ -7,27 +7,27 @@
 
 + Install the dependencies:
 
-```bash
+#+BEGIN_SRC bash
 pnpm install
-```
+#+END_SRC
 
 ## Get started
 
 + Start the dev server
 + This app will be available at [http://localhost:5005](http://localhost:5005).
 
-```bash
+#+BEGIN_SRC bash
 pnpm dev
-```
+#+END_SRC
 
 + Build the app for production:
 
-```bash
+#+BEGIN_SRC bash
 pnpm build
-```
+#+END_SRC
 
 + Preview the production build locally:
 
-```bash
+#+BEGIN_SRC bash
 pnpm preview
-```
+#+END_SRC

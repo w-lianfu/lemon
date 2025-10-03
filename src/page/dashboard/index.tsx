@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { NavLink } from 'react-router';
 
 const Dashboard = () => {
   useEffect(() => {
@@ -8,6 +9,7 @@ const Dashboard = () => {
   return (
     <section>
       <p>~~~ Dashboard Page ~~~</p>
+      <NavLink to="/home">to Home Page</NavLink>
     </section>
   );
 };

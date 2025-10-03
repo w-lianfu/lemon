@@ -7,10 +7,7 @@ interface IProps {
 const AppTheme = (props: IProps) => {
   const { children } = props;
   return (
-    <div>
-      <p>~~~ welcome ~~~</p>
-      <div>{children}</div>
-    </div>
+    <section>{children}</section>
   );
 };
 
