@@ -2,12 +2,12 @@ import { useEffect } from 'react';
 
 interface IProps {}
 
-const AppBottom = (props: IProps) => {
+const AppBar = (props: IProps) => {
   useEffect(() => {}, []);
 
   return (
-    <section>app bottom</section>
+    <section>app bar</section>
   );
 };
 
-export default AppBottom;
+export default AppBar;
