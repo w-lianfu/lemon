@@ -1,0 +1,9 @@
+@use '@scss/color.scss' as *;
+@use '@scss/mixin.scss' as *;
+
+.header {
+  @include black-bg(0.05);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+}
